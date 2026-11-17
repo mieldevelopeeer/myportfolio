@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Personal portfolio showcasing my background, skills, and experience.">
+
+    <title>My Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script src="js/portfolio.js" defer></script>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-container">
+
+            <a href="index.html" class="brand">
+                <span class="brand-mark">P.</span>
+                <span>My Portfolio</span>
+            </a>
+
+            <nav class="tabs" aria-label="Portfolio pages">
+                <a href="index.html" aria-current="page">Home</a>
+                <a href="tabs/aboutme.html">About Me</a>
+                <a href="tabs/skills.html">Skills</a>
+                <a href="tabs/projects.html">Projects</a>
+                <a href="tabs/contact.html">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+
+            <div class="hero-content">
+                <span class="eyebrow">
+                    <span class="status-dot"></span>
+                    PERSONAL PORTFOLIO
+                </span>
+
+                <h1>
+                    Hello, I'm <span class="accent">Gedeoni Ammiel N. Pairat.</span>
+                    <br>
+                    Welcome to my portfolio.
+                </h1>
+
+                <p class="hero-description">
+                    A space where I share my background, skills,
+                    experiences, and creative journey.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="tabs/aboutme.html" class="btn btn-primary">
+                        Discover More <span>↗</span>
+                    </a>
+
+                    <a href="tabs/skills.html" class="btn btn-secondary">
+                        Explore My Skills
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-decoration">
+                <div class="decoration-image">
+                    <img
+                        src="img/profile.png"
+                        alt="Personal portfolio profile"
+                        class="hero-image"
+                    >
+
+                    <div class="image-caption">
+                        <span class="status-dot"></span>
+                        <div>
+                            <strong>CREATIVE MINDSET</strong>
+                            <p>Always learning. Always creating.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="intro-section">
+            <div>
+                <span class="section-label">01 / INTRODUCTION</span>
+                <h2>A little about this space.</h2>
+            </div>
+
+            <p>
+                This portfolio represents my journey, interests,
+                capabilities, and the things I continue to learn.
+                Explore the different sections to know more about me.
+            </p>
+        </section>
+
+        <section class="projects-section" aria-labelledby="featured-projects-title">
+            <div class="section-heading projects-heading">
+                <div>
+                    <span class="section-label">FEATURED WORK</span>
+                    <h2 id="featured-projects-title">Systems & projects.</h2>
+                    <p>A few projects from my portfolio.</p>
+                </div>
+                <a href="tabs/projects.html" class="btn btn-secondary">View all projects</a>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-preview project-preview-image">
+                        <img src="img/system1.png" alt="Screenshot of the web-based enrollment and academic system"
+                            width="1748" height="1240" loading="lazy" decoding="async">
+                    </div>
+                    <div class="project-content">
+                        <span class="section-label">CAPSTONE PROJECT</span>
+                        <h2>Web-based Enrollment and Academic System</h2>
+                        <p>Replace this text with a short description of what your system does.</p>
+                        <span class="project-tech">LARAVEL FRAMEWORK, PHP , JS, CSS, HTML ,MYSQL DATABASE</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-preview project-preview-image">
+                        <img src="img/system2.png" alt="Screenshot of System Project 02"
+                            width="1748" height="1240" loading="lazy" decoding="async">
+                    </div>
+                    <div class="project-content">
+                        <span class="section-label">SYSTEM PROJECT</span>
+                        <h2>Inventory System for Materials & Equipments</h2>
+                        <p>Replace this text with a short description of what your system does.</p>
+                        <span class="project-tech">PYTHON, HTML, CSS, JS, SQLITE</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-preview" aria-hidden="true">ADD PROJECT SCREENSHOT</div>
+                    <div class="project-content">
+                        <span class="section-label">SYSTEM PROJECT</span>
+                        <h2>System Project 03</h2>
+                        <p>Replace this text with a short description of what your system does.</p>
+                        <span class="project-tech">PYTHON, HTML, CSS, JS, SQLITE</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <span>© <span id="current-year"></span> My Portfolio</span>
+            <span>Designed with simplicity.</span>
+        </footer>
+
+    </main>
+
+</body>
+</html>
